@@ -1,0 +1,9 @@
+{
+  "name": "rpg-maker-mz-adsterra-plugins",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Adsterra advertising plugins for RPG Maker MZ",
+  "scripts": {
+    "check": "node --check plugins/AdsterraSimpleBanner.js && node --check plugins/AdsterraSocialBar.js && node --check plugins/AdsterraPopunder.js"
+  }
+}
